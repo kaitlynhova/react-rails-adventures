@@ -2221,3 +2221,1542 @@ Processing by Api::V1::ItemsController#create as */*
   [1m[35mSQL (0.3ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "YOOO"], ["description", "working description"], ["created_at", "2016-08-09 18:47:58.037867"], ["updated_at", "2016-08-09 18:47:58.037867"]]
   [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
 Completed 201 Created in 7ms (Views: 0.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 11:50:48 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1511ms (Views: 1510.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/components/_all_items.self-ba08ccc1b4b05b8185687bcbef66cc70f519f0259609e324ac965f9265ff5859.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/assets/components/_body.self-051c8056f1947cd91fb464dde34ab12a94af79fbb5491e4c66990e34e2e784a3.js?body=1" for ::1 at 2016-08-09 11:50:51 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 11:50:51 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+Completed 200 OK in 7ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 11:51:53 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 832ms (Views: 831.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/components/_all_items.self-78be103c30ff5b0fc12748920ded08f32ac66b8bf812cd30eabc672e48c40f2b.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/components/_body.self-051c8056f1947cd91fb464dde34ab12a94af79fbb5491e4c66990e34e2e784a3.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 11:51:54 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 11:51:54 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 11:52:13 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 846ms (Views: 845.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 11:52:13 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 11:52:13 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 11:52:13 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 11:52:13 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 11:52:13 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/components/_body.self-051c8056f1947cd91fb464dde34ab12a94af79fbb5491e4c66990e34e2e784a3.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 11:52:14 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 11:52:14 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+Completed 200 OK in 6ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 11:53:41 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 872ms (Views: 871.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/assets/components/_body.self-66b90d8e18c45d7ad11af76e030474d633d69d0303cfdca8445b94cc5f53d3ec.js?body=1" for ::1 at 2016-08-09 11:53:42 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 11:53:42 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 8ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/api/v1/items/$%7Bid%7D" for ::1 at 2016-08-09 11:53:44 -0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"${id}"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 8ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Item with 'id'=${id}):
+  app/controllers/items_controller.rb:9:in `destroy'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.4ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (36.3ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 11:54:05 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 932ms (Views: 931.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/assets/components/_body.self-deb94fd482f538f4ddff4c557155b740a3b37eee80cba88ce2abcbe29a5a0644.js?body=1" for ::1 at 2016-08-09 11:54:06 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 11:54:06 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 6ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/api/v1/items/$%7Bid%7D" for ::1 at 2016-08-09 11:54:07 -0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"${id}"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Item with 'id'=${id}):
+  app/controllers/items_controller.rb:9:in `destroy'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.4ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (36.1ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 11:56:34 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 651ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: unknown: Unexpected token (7:16)
+   5 |       url: '/api/v1/items/${id}',
+   6 |       type: 'DELETE',
+>  7 |       success() => {
+     |                 ^
+   8 |         console.log('YEAH REMOVED ITEM')
+   9 |         this.removeItemClient(id);
+  10 |       }):
+    3: <head>
+    4:   <title>ItemCart</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1311686955384534241_70325912840980'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.3ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.6ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (84.7ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 11:56:57 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 826ms (Views: 825.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/assets/components/_body.self-d496661185868c9019739e3760d7e5b529e1dea8492b7ea857c7bffb5c0092de.js?body=1" for ::1 at 2016-08-09 11:56:58 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 11:56:58 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 7ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/api/v1/items/$%7Bid%7D" for ::1 at 2016-08-09 11:57:00 -0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"${id}"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Item with 'id'=${id}):
+  app/controllers/items_controller.rb:9:in `destroy'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.2ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (39.5ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 11:59:52 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1816ms (Views: 1808.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/components/_body.self-d496661185868c9019739e3760d7e5b529e1dea8492b7ea857c7bffb5c0092de.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 11:59:54 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 11:59:55 -0700
+
+LoadError (Unable to autoload constant ItemsController, expected /Users/kaitlynhova/Documents/react-rails-adventures2/app/controllers/items_controller.rb to define it):
+  activesupport (4.2.5) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:263:in `const_get'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:263:in `block in constantize'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/kaitlynhova/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/kaitlynhova/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/kaitlynhova/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (44.5ms)
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 12:00:12 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+Completed 200 OK in 12ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 12:00:15 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/components/_body.self-d496661185868c9019739e3760d7e5b529e1dea8492b7ea857c7bffb5c0092de.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 12:00:15 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 12:00:15 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 9ms (Views: 4.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/api/v1/items/$%7Bid%7D" for ::1 at 2016-08-09 12:00:20 -0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"${id}"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 12ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Item with 'id'=${id}):
+  app/controllers/items_controller.rb:9:in `destroy'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (37.9ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 12:00:23 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/components/_body.self-d496661185868c9019739e3760d7e5b529e1dea8492b7ea857c7bffb5c0092de.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 12:00:23 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 12:00:23 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 15ms (Views: 10.3ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/api/v1/items/$%7Bid%7D" for ::1 at 2016-08-09 12:00:25 -0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"${id}"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Item with 'id'=${id}):
+  app/controllers/items_controller.rb:9:in `destroy'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (37.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 12:00:26 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/components/_body.self-d496661185868c9019739e3760d7e5b529e1dea8492b7ea857c7bffb5c0092de.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 12:00:26 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 12:00:26 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 8ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/api/v1/items/$%7Bid%7D" for ::1 at 2016-08-09 12:00:31 -0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"${id}"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Item with 'id'=${id}):
+  app/controllers/items_controller.rb:9:in `destroy'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.8ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.4ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (36.7ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 12:01:45 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 827ms (Views: 826.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/assets/components/_body.self-0a1788022244ac9d31e3070ac8ac961429d7f832587ebdbb3c9f605ac4d254fd.js?body=1" for ::1 at 2016-08-09 12:01:46 -0700
+
+
+Started GET "/" for ::1 at 2016-08-09 12:01:52 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/assets/components/_body.self-d496661185868c9019739e3760d7e5b529e1dea8492b7ea857c7bffb5c0092de.js?body=1" for ::1 at 2016-08-09 12:01:52 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 12:01:52 -0700
+
+LoadError (Unable to autoload constant ItemsController, expected /Users/kaitlynhova/Documents/react-rails-adventures2/app/controllers/items_controller.rb to define it):
+  activesupport (4.2.5) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:263:in `const_get'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:263:in `block in constantize'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/kaitlynhova/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/kaitlynhova/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/kaitlynhova/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.8ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (39.5ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 12:01:53 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/components/_body.self-d496661185868c9019739e3760d7e5b529e1dea8492b7ea857c7bffb5c0092de.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 12:01:54 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 12:01:54 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 13ms (Views: 5.4ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/api/v1/items/$%7Bid%7D" for ::1 at 2016-08-09 12:01:57 -0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"${id}"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Item with 'id'=${id}):
+  app/controllers/items_controller.rb:9:in `destroy'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.2ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (38.5ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 12:03:10 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 693ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: unknown: Unexpected token (5:29)
+  3 |     console.log("delete this");
+  4 |     $.ajax({
+> 5 |       url: {'/api/v1/items/' + id },
+    |                              ^
+  6 |       type: 'DELETE',
+  7 |       success:() => {
+  8 |         console.log('YEAH REMOVED ITEM')):
+    3: <head>
+    4:   <title>ItemCart</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1639352866318906070_70287167173380'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.4ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.1ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (84.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 12:03:49 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 848ms (Views: 847.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/assets/components/_body.self-34b8057c91734e94e30492f4c57fb5a691b72453e8b957543d68ee0fca8cda6d.js?body=1" for ::1 at 2016-08-09 12:03:50 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 12:03:51 -0700
+
+LoadError (Unable to autoload constant ItemsController, expected /Users/kaitlynhova/Documents/react-rails-adventures2/app/controllers/items_controller.rb to define it):
+  activesupport (4.2.5) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:263:in `const_get'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:263:in `block in constantize'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/kaitlynhova/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/kaitlynhova/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/kaitlynhova/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.4ms)
+  Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (46.5ms)
+
+
+Started GET "/" for ::1 at 2016-08-09 12:03:52 -0700
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/react.self-3bc758f7147da7798f3b3635390f2bb97ea7c985268975bd013adf518062664e.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/components/_all_items.self-81d6cd2aaa3d007e1e3e5535e53b429aaf8512202506da659790edd160e56300.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/components/_body.self-34b8057c91734e94e30492f4c57fb5a691b72453e8b957543d68ee0fca8cda6d.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/components/_new_item.self-7bd29f35ed3d84b80572f0f64701992110221917b2801a418ae4a8511c7a97b5.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/components/_new_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/components/header.self-342b15753d68879313dd5df8dc6fa7237afe5727e49314ff0eb76409e833edcd.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/components/main.self-832af200cb37449fc27445bed64adac24d3db586f05b7feb8bc2d23ba1406880.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-09 12:03:52 -0700
+
+
+Started GET "/api/v1/items.json" for ::1 at 2016-08-09 12:03:52 -0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 13ms (Views: 4.8ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/api/v1/items/1" for ::1 at 2016-08-09 12:03:55 -0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "items" WHERE "items"."id" = ?  [["id", 1]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 8ms (ActiveRecord: 2.6ms)
+
+
+Started DELETE "/api/v1/items/14" for ::1 at 2016-08-09 12:03:58 -0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"14"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 14]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "items" WHERE "items"."id" = ?  [["id", 14]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 7ms (ActiveRecord: 2.5ms)
