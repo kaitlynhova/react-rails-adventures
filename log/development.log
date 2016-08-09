@@ -15,3 +15,34 @@ Started GET "/" for ::1 at 2016-08-09 10:30:55 -0700
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/kaitlynhova/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
 Completed 200 OK in 18ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Item"], ["description", "I am a description."], ["created_at", "2016-08-09 17:31:53.467931"], ["updated_at", "2016-08-09 17:31:53.467931"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Item"], ["description", "I am a description."], ["created_at", "2016-08-09 17:31:53.473477"], ["updated_at", "2016-08-09 17:31:53.473477"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Item"], ["description", "I am a description."], ["created_at", "2016-08-09 17:31:53.475843"], ["updated_at", "2016-08-09 17:31:53.475843"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Item"], ["description", "I am a description."], ["created_at", "2016-08-09 17:31:53.477539"], ["updated_at", "2016-08-09 17:31:53.477539"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Item"], ["description", "I am a description."], ["created_at", "2016-08-09 17:31:53.479121"], ["updated_at", "2016-08-09 17:31:53.479121"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Item"], ["description", "I am a description."], ["created_at", "2016-08-09 17:31:53.480612"], ["updated_at", "2016-08-09 17:31:53.480612"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Item"], ["description", "I am a description."], ["created_at", "2016-08-09 17:31:53.482053"], ["updated_at", "2016-08-09 17:31:53.482053"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Item"], ["description", "I am a description."], ["created_at", "2016-08-09 17:31:53.483431"], ["updated_at", "2016-08-09 17:31:53.483431"]]
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Item"], ["description", "I am a description."], ["created_at", "2016-08-09 17:31:53.484730"], ["updated_at", "2016-08-09 17:31:53.484730"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Item"], ["description", "I am a description."], ["created_at", "2016-08-09 17:31:53.485989"], ["updated_at", "2016-08-09 17:31:53.485989"]]
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
