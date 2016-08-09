@@ -49,7 +49,7 @@ var Body = React.createClass({
     return(
       <div>
         <NewItem handleSubmit={this.handleSubmit}/>
-        <AllItems items={this.state.items} handleDelete={this.handleDelete} onUpdate={this.handleUpdate}/>
+        <AllItems items={this.state.items.reverse()} handleDelete={this.handleDelete} onUpdate={this.handleUpdate}/>
       </div>
     )
   }
