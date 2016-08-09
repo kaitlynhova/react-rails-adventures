@@ -6,10 +6,27 @@ var Body = React.createClass({
       url: requestUrl,
       type: 'DELETE',
       success:() => {
-        console.log('YEAH REMOVED ITEM')
+        console.log('YEAH REMOVED ITEM');
         this.removeItemClient(id);
       }
     });
+  },
+  handleUpdate(item){
+    var requestUrl = '/api/v1/items/' + item.id;
+    $.ajax({
+      url: requestUrl,
+      type: 'PUT',
+      data: {item: item},
+      success:() => {
+        this.updateItems(item);
+        console.log('YEAH UPDATED ITEM');
+      }
+    });
+  },
+  updateItems(item){
+    var items = this.state.items.filter((i) => {return i.id != item.id});
+    items.push(item);
+    this.setState({items: items});
   },
   removeItemClient(id){
     var newItems = this.state.items.filter((item) => {
@@ -32,7 +49,7 @@ var Body = React.createClass({
     return(
       <div>
         <NewItem handleSubmit={this.handleSubmit}/>
-        <AllItems items={this.state.items} handleDelete={this.handleDelete} />
+        <AllItems items={this.state.items} handleDelete={this.handleDelete} onUpdate={this.handleUpdate}/>
       </div>
     )
   }
